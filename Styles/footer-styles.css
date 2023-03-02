@@ -1,0 +1,56 @@
+/*Aquí va el CSS del footer, Juanma*/
+
+p{
+    font-family: Roboto, Arial;
+    margin: 0; 
+    font-weight: 500;
+} 
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.footer{
+    background-color: #000e40;
+
+
+
+
+    display: flex;
+    flex-direction: column;
+    flex-direction: row;
+    justify-content: space-between;
+
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+
+
+    z-index: 100;
+}
+.flexbox1-footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.flexbox2-footer{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.smite-logo-footer{
+    width: auto;
+    height: 80px;
+
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.logo-twitch{
+    padding-left: 24px;
+}
+.logos-footer{
+    padding-right: 10px;
+}

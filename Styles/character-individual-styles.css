@@ -1,0 +1,397 @@
+/*Aquí va el CSS de la "plantilla" para lso personajes*/
+
+p{
+    font-family: Roboto, Arial;
+    margin: 0; 
+    font-weight: 500;
+} 
+
+body{
+    background-color: #071325;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+
+
+
+
+
+
+
+
+.character-marco{
+    display: flex;
+
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.character-individual-marco{
+display: flex;
+flex-direction: column;
+}
+.character-individual{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.character-img{
+    width: 360px;
+    height: 550px;
+}
+.character-name{
+    font-size: 50px;
+    color: #9e946e;
+    margin-bottom: 10px;
+}
+.profile-meta{
+    display: grid;
+    grid-template-columns: 90px 90px 90px;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+
+    align-items: center;
+    justify-content: center;
+}
+.profile-meta-single{
+    margin-top: 25px;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    justify-items: center;
+}
+.info-meta{
+    font-size: 15px;
+    color: #9e946e;
+
+    padding-top: 5px;
+}
+.icon-meta{
+    width: 84px;
+    height: 84px;
+}
+
+.flexbox2-character-individual{
+display: flex;
+flex-direction: column;
+
+padding-left: 50px;
+padding-top: 65px;
+}
+.nickname-character{
+    font-size: 30px;
+    color: #9e946e;
+}
+.lore{
+    font-size: 20px;
+    color: white;
+}
+
+.skills-marco{
+    border-top-color: #9e946e;
+    border-top-style: solid;
+    border-top-width: 3px;
+    border-radius: 1px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-top: 30px;
+}
+
+.skills-individual{
+    border-style: solid;
+    border-color: #9e946e;
+    border-width: 1px;
+
+    padding: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill-img{
+    width: auto;
+    height: 80px;
+}
+
+.number-skill{
+    color: #9e946e;
+
+    border-style: solid;
+    border-color: #9e946e;
+    border-width: 1px;
+    border-radius: 4px;
+
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    
+    margin: 10px;
+}
+
+.name-skill{
+    color: #9e946e;
+
+    font-size: 15px;
+}
+
+.name-skill-marco{
+    position: relative;
+}
+
+.tooltip-skill-1{
+    position: absolute;
+    top: 30px;
+    left: -87px;
+    background-color: #9e946e;
+    
+    overflow: hidden;
+
+    pointer-events: none;
+
+    width: 202px;
+
+    max-height: 0px;
+    transition: max-height 1s;
+}
+
+.tooltip-skill-2{
+    position: absolute;
+    top: 30px;
+    left: -70px;
+    background-color: #9e946e;
+    
+    overflow: hidden;
+
+    pointer-events: none;
+
+    width: 202px;
+
+    max-height: 0px;
+    transition: max-height 1s;
+}
+.tooltip-skill-3{
+    position: absolute;
+    top: 30px;
+    left: -66px;
+    background-color: #9e946e;
+    
+    overflow: hidden;
+
+    pointer-events: none;
+
+    width: 202px;
+
+    max-height: 0px;
+    transition: max-height 1s;
+}
+.tooltip-skill-4{
+    position: absolute;
+    top: 30px;
+    left: -60px;
+    background-color: #9e946e;
+    
+    overflow: hidden;
+
+    pointer-events: none;
+
+    width: 211px;
+
+    max-height: 0px;
+    transition: max-height 1s;
+}
+.tooltip-skill-5{
+    position: absolute;
+    top: 30px;
+    left: -61px;
+    background-color: #9e946e;
+    
+    overflow: hidden;
+
+    pointer-events: none;
+
+    width: 248px;
+
+    max-height: 0px;
+    transition: max-height 1s;
+}
+
+.tooltip-text{
+    padding: 10px;
+    font-size: 15px;
+    color: #071325;
+}
+
+.name-skill-marco:hover .tooltip-animation{
+    opacity: 1;
+    max-height: 700px;
+}
+
+
+.items-marco{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 120px;
+}
+
+.titulos{
+    display: flex;
+
+    align-items: center;
+}
+
+.titulo-apartado{
+    font-size: 50px;
+    color: #9e946e;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.title-hr{
+    display: block;
+    color: #9e946e;
+    background-color: #9e946e;
+
+    width: 100%;
+    height: 10px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #9e946e;
+}
+
+.items{
+    display: flex;
+
+    justify-content: center;
+}
+
+.item-individual{
+    margin: 30px;
+    align-content: center;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    justify-items: center;
+}
+.item-img{
+    border-style: solid;
+    border-color: #9e946e;
+    border-width: 2px;
+
+    width: 150px;
+    height: auto;
+}
+.item-name{
+    color: #9e946e;
+    font-size: 18px;
+
+    margin-top: 10px;
+}
+
+.skins-marco{
+    display: flex;
+    flex-direction: column;
+
+    margin-top: 120px;
+}
+
+.skins{
+    display: grid; 
+    
+    grid-column-gap: 20px;
+    grid-row-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    justify-items: center;
+
+    margin-top: 30PX;
+}
+
+.skins-individual{
+    display: flex;
+    flex-direction: column;
+}
+
+.skins-img{
+    height: 500px;
+    width: 380px;
+
+    border-style: solid;
+    border-color: #9e946e;
+    border-width: 1px;
+}
+
+.skins-name{
+    font-size: 25px;
+    color: white;
+
+    padding: 5px;
+    border-style: solid;
+    border-color: #9e946e;
+    border-width: 1px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.skins-type{
+    font-size: 15px;
+    color: #9e946e;
+
+    border-style: solid;
+    border-color: #9e946e;
+    border-width: 1px;
+    padding: 5px;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(max-width: 1650px){  
+    .skins{
+    display: grid; 
+    
+    grid-column-gap: 20px;
+    grid-row-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    justify-items: center;
+
+    margin-top: 30PX;
+}
+}
+
+@media(max-width: 1250px){  
+    .skins{
+    display: grid; 
+    
+    grid-column-gap: 20px;
+    grid-row-gap: 60px;
+    grid-template-columns: 1fr 1fr;
+    
+    justify-items: center;
+
+    margin-top: 30PX;
+}
+}
+
+
+    
