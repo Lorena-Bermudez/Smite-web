@@ -1,4 +1,4 @@
-/*Aquí va el CSS de la "plantilla" para lso personajes*/
+/*Aquí va el CSS de la "plantilla" para los personajes*/
 
 p{
     font-family: Roboto, Arial;
@@ -16,6 +16,8 @@ body{
     padding-bottom: 150px;
     padding-left: 40px;
     padding-right: 40px;
+
+    position: relative;
 }
 
 
