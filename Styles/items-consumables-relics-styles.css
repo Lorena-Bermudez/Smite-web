@@ -1,1 +1,171 @@
 /*Aquí va un mismo css para las tres páginas de Builds*/
+
+p{
+    font-family: Roboto, Arial;
+    margin: 0; 
+    font-weight: 500;
+} 
+
+body{
+    background-color: #071325;
+    margin: 0px;
+}
+
+.page-content{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    position: relative;
+}
+
+
+
+.titulos{
+    display: flex;
+
+    align-items: center;
+}
+
+.titulo-apartado{
+    font-size: 50px;
+    color: #9e946e;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.title-hr{
+    display: block;
+    color: #9e946e;
+    background-color: #9e946e;
+
+    width: 100%;
+    height: 10px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #9e946e;
+}
+
+
+
+
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-row-gap: 90px;
+    grid-column-gap: 70px;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-top: 80px;
+}
+
+.item-individual{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-img{
+    width: 80px;
+    height: 80px;
+
+    border-style: solid;
+    border-color: #9e946e;
+    border-width: 1px;
+}
+
+.item-name{
+    color: #9e946e;
+
+    font-size: 15px;
+
+    padding-bottom: 5px;
+}
+
+.tooltip-item-1{
+    position: absolute;
+    top: 314px;
+    background-color: #9e946e;
+    
+    overflow: hidden;
+
+    pointer-events: none;
+
+    width: 200px;
+
+    max-height: 0px;
+    transition: max-height 1s;
+}
+
+.tooltip-text{
+    padding: 10px;
+    font-size: 15px;
+    color: #071325;
+}
+
+.item-img-marco:hover .tooltip-animation{
+    opacity: 1;
+    max-height: 700px;
+}
+
+.buy{
+    display: flex;
+
+    align-items: center;
+
+    padding-top: 5px;
+}
+
+.money-icon{
+    width: auto;
+    height: 20px;
+}
+.precio{
+    color: white;
+
+    font-size: 15px;
+
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+
+@media(max-width: 1350px){  
+    .items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-row-gap: 90px;
+        grid-column-gap: 70px;
+    
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+@media(max-width: 950px){  
+    .items{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-row-gap: 90px;
+        grid-column-gap: 70px;
+    
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 650px){  
+    .items{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-row-gap: 90px;
+        grid-column-gap: 70px;
+    
+        align-items: center;
+        justify-content: center;
+    }
+}
