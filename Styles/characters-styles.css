@@ -1,1 +1,140 @@
 /*Aquí va el css de la página de personajes*/
+
+p{
+    font-family: Roboto, Arial;
+    margin: 0; 
+    font-weight: 500;
+} 
+
+body{
+    background-color: #071325;
+    margin: 0px;
+}
+.page-content{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    position: relative;
+}
+
+
+
+
+
+
+
+.characters{
+    display: grid;
+    grid-column-gap: 20px;
+    grid-row-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    
+    justify-items: center;
+}
+.characters-marco{
+    display: flex;
+    flex-direction: column;
+}
+.characters-name{
+    font-size: 30px;
+    color:#9e946e;
+
+    padding: 8px;
+    border-style: solid;
+    border-color: #9e946e;
+    border-width: 2px;
+    border-bottom-width: 0px;
+
+    display: flex;
+    justify-content: center;
+}
+.img-character{
+    height: 400px;
+    width: 280px;
+
+    border-style: solid;
+    border-color: #9e946e;
+    border-width: 4px;
+}
+
+
+
+
+
+.titulos{
+    display: flex;
+
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.titulo-apartado{
+    font-size: 60px;
+    color: #9e946e;
+
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.title-hr{
+    display: block;
+    color: #9e946e;
+    background-color: #9e946e;
+
+    width: 100%;
+    height: 10px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: #9e946e;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 1580px){  
+    .characters{
+    display: grid; 
+    
+    grid-column-gap: 20px;
+    grid-row-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    justify-items: center;
+
+    margin-top: 30PX;
+}
+}
+
+@media(max-width: 1280px){  
+    .characters{
+    display: grid; 
+    
+    grid-column-gap: 20px;
+    grid-row-gap: 60px;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    justify-items: center;
+
+    margin-top: 30PX;
+}
+}
+
+@media(max-width: 970px){  
+    .characters{
+    display: grid; 
+    
+    grid-column-gap: 20px;
+    grid-row-gap: 60px;
+    grid-template-columns: 1fr 1fr;
+    
+    justify-items: center;
+
+    margin-top: 30PX;
+}
+}
