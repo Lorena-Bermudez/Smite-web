@@ -4,9 +4,18 @@ p{
     font-weight: 500;
 } 
 
+.page-content{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    position: relative;
+}
+
 .fondo{
     height: 1000px;
-    background-image: url(../Media/iconos-foter-y-header/Smite\ web\ 2.jpg)
+    background-image: url(../Media/iconos-foter-y-header/Smite\ web.jpg)
 }
 
 .flexbox1-fondo{
@@ -18,7 +27,7 @@ p{
     font-weight: bold;
     font-size: 20px;
     height: 450px;
-    color: black;
+    color: white;
 }
 
 .logo-smite{
