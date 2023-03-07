@@ -105,12 +105,22 @@ body{
     height: 200px;
 }
 
+
 .position-name{
     color: #9e946e;
     font-size: 30px;
 
     padding-top: 10px;
 }
+
+
+.position-img:hover{
+    opacity: 0.8;
+    }
+
+.position-img:active{ 
+    opacity: 0.6;
+    }
 
 
 
