@@ -1,0 +1,42 @@
+p{
+    font-family: Roboto, Arial;
+    margin: 0; 
+    font-weight: 500;
+} 
+
+.fondo{
+    height: 1000px;
+    background-image: url(../Media/iconos-foter-y-header/Smite\ web\ 2.jpg)
+}
+
+.flexbox1-fondo{
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.texto{
+    font-weight: bold;
+    font-size: 20px;
+    height: 450px;
+    color: black;
+}
+
+.logo-smite{
+    width: 500px;
+}
+
+.flexbox2-fondo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 650px;
+    margin-top: -50px;
+}
+
+.logo-plataformas{
+    height: 35px;
+    width: auto;
+    margin-right: 5px;
+    
+}
+
