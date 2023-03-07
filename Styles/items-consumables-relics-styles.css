@@ -26,6 +26,8 @@ body{
     display: flex;
 
     align-items: center;
+
+    margin-top: 50px;
 }
 
 .titulo-apartado{
@@ -46,6 +48,38 @@ body{
     border-style: solid;
     border-color: #9e946e;
 }
+
+
+
+.botones{
+    display: flex;
+
+    justify-content: center;
+    justify-items: center;
+}
+
+.but{
+    color:#071325;
+    font-size: 20px;
+    font-weight: 700;
+
+    background-color:#9e946e;
+
+    height: 100px;
+    width: 200px;
+
+    border-style:none;
+}
+
+.but:hover{
+    opacity: 0.8;
+    }
+
+.but:active{ 
+    opacity: 0.6;
+    }
+
+
 
 
 
@@ -87,7 +121,7 @@ body{
 
 .tooltip-item-1{
     position: absolute;
-    top: 314px;
+    top: 463px;
     background-color: #9e946e;
     
     overflow: hidden;
