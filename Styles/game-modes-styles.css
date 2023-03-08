@@ -11,6 +11,15 @@ body{
     margin: 0;
 }
 
+.page-content{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    position: relative;
+}
+
 .titulos{
     height: 300px;
     display: flex;
@@ -34,8 +43,6 @@ body{
 }
 
 .game-modes{
-    position: absolute;
-    position: absolute;
     text-align: center;
 }
 .foto-modos{
