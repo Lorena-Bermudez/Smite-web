@@ -21,7 +21,6 @@ body{
 }
 
 .titulos{
-    height: 300px;
     display: flex;
     align-items: center;
     margin-bottom: 50px;
@@ -30,6 +29,8 @@ body{
 .titulo-apartado{
     font-size: 60px;
     color: #9e946e;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 .barra{
     display: block;
@@ -45,7 +46,7 @@ body{
     color: #9e946e;
     font-style: italic;
     font-size: 30px;
-    margin-top: -80px;
+    margin-top: -50px;
     margin-left: 40px;
 }
 
