@@ -1,1 +1,95 @@
 /*Aquí va el css de la página que simulará el foro*/
+
+p{
+    font-family: Roboto, Arial;
+    margin: 0; 
+    font-weight: 500;
+} 
+
+body{
+    background-color: #071325;
+    margin: 0px;
+}
+.page-content{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    position: relative;
+}
+
+.user-comentario{
+    display: flex;
+
+    align-items: top;
+
+    margin-bottom: 70px;
+}
+
+.user-profile-img{
+    border-radius: 50%;
+
+    height: 70px;
+    width: 70px;
+
+    border-style: solid;
+    border-color: #9e946e;
+    border-width: 2px;
+}
+.comentario{
+    display: flex;
+    flex-direction: column;
+}
+.nombre-usuario{
+    color:#9e946e;
+    font-size: 20px;
+
+    margin-left: 30px;
+}
+.texto{
+    color: white;
+    font-size: 15px;
+
+    margin-left: 30px;
+    margin-top: 5px;
+}
+.hora{
+    color:#9e946e;
+    font-size: 12px;
+
+    margin-left: 30px;
+
+    display: flex;
+    justify-content: flex-end;
+}
+
+.my-comentario-marco{
+    display: flex;
+
+}
+.my-comentario{
+    display: flex;
+    flex-direction: column;
+
+    justify-items: center;
+    justify-items: center;
+
+    margin-bottom: 40px;
+}
+
+.barra{
+    background-color: #9e946e;
+    color: white;
+    font-size: 15px;
+    border-color: #9e946e;
+    border-radius: 5px;
+    border-style: solid;
+
+    margin-left: 30px;
+    margin-top: 8px;
+    padding-left: 10px;
+
+    height: 30px;
+}
+
